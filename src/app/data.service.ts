@@ -118,7 +118,7 @@ export class DataService {
     return obs.subscribe((response) => {
       console.log(response);
       this.isloggin = response;
-      this.clientName = response;
+      this.clientName = '';
       console.log(this.clientName);
       this.username = username;
       console.log(this.isloggin)
